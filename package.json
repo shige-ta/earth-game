@@ -1,0 +1,28 @@
+{
+  "name": "globe-viz",
+  "version": "1.0.0",
+  "description": "THREEJS Globe Visual",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server app.js",
+    "vercel-build": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-dist": "^1.12.1",
+    "three": "^0.119.1",
+    "http-server": "0.12.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
